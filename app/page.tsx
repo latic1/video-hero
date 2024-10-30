@@ -38,7 +38,7 @@ export default function Home() {
     <div className="no-scrollbar relative flex h-screen items-center justify-center overflow-y-scroll bg-white">
       <section className="clip_path-container absolute inset-0 mt-[100vh] bg-white">
         {/* video background */}
-        <div className="absolute h-screen w-screen">
+        <div className="absolute h-screen w-screen" aria-hidden="true">
           <video
             preload="auto"
             muted
@@ -78,14 +78,14 @@ export default function Home() {
                     Winner always
                   </span>
                 </p>
-                <p className="h-fit overflow-hidden text-3xl leading-none md:text-[3vw] py-1">
+                <p className="h-fit overflow-hidden py-1 text-3xl leading-none md:text-[3vw]">
                   <span className="hero-subtitle relative -bottom-24">
                     finds a way.
                   </span>
                 </p>
               </div>
 
-              <div className="h-fit items-center overflow-hidden ">
+              <div className="h-fit items-center overflow-hidden">
                 <button className="hero-subtitle group relative -bottom-24 overflow-hidden rounded-full border-2 border-gray-50 px-5 text-xl backdrop-blur-2xl duration-300 hover:text-black md:text-3xl">
                   {/* Background span */}
                   <span className="absolute left-0 top-0 h-full w-0 rounded-full bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
