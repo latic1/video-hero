@@ -46,7 +46,7 @@ export default function Home() {
             autoPlay
             className="h-full w-full object-cover"
           >
-            <source src="/3063475.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/dcrvuwr7t/video/upload/v1730277662/sample/lazv13p4ybewamrsugkv.mp4" type="video/mp4" />
             Your browser doesn't support the video tag.
           </video>
           <div className="absolute left-0 top-0 h-full w-full bg-black bg-opacity-50"></div>
