@@ -9,9 +9,7 @@ export default function Navbar() {
 
         {/* Navbar Links */}
         <div className="hidden space-x-8 text-lg font-medium text-white md:flex">
-          <a href="#solutions" className="hover:text-gray-400">
-            Solutions
-          </a>
+        
           <a href="#about" className="hover:text-gray-400">
             About Us
           </a>
