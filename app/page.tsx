@@ -47,7 +47,7 @@ export default function Home() {
             className="h-full w-full object-cover"
           >
             <source
-              src="https://res.cloudinary.com/dcrvuwr7t/video/upload/v1730277662/sample/lazv13p4ybewamrsugkv.mp4"
+              src="https://res.cloudinary.com/dcrvuwr7t/video/upload/f_auto:video,q_auto/v1/sample/lazv13p4ybewamrsugkv"
               type="video/mp4"
             />
             Your browser doesn't support the video tag.

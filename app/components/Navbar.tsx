@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav className="relative z-10 w-full bg-transparent px-4 py-4">
@@ -9,13 +11,20 @@ export default function Navbar() {
 
         {/* Navbar Links */}
         <div className="hidden space-x-8 text-lg font-medium text-white md:flex">
-        
-          <a href="#about" className="hover:text-gray-400">
+          <Link
+            href="linkedin.com/in/latif-musah"
+            target="_blank"
+            className="hover:text-gray-400"
+          >
             About Us
-          </a>
-          <a href="#news" className="hover:text-gray-400 hover:underline d">
+          </Link>
+          <Link
+            href="linkedin.com/in/latif-musah"
+            target="_blank"
+            className="d hover:text-gray-400 hover:underline"
+          >
             News
-          </a>
+          </Link>
         </div>
 
         {/* Hamburger Icon (visible on small screens) */}
